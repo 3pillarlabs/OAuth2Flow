@@ -1,6 +1,6 @@
 # OAuth2Flow
 
-![](blob/master/oauth-2-logo.png)
+![](oauth-2-logo.png)
 
 ## Description
 

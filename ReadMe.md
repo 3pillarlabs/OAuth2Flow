@@ -113,7 +113,7 @@ request?.startWithJSONBlockReponse({ (json: AnyObject?, error: NSError?) -> Void
 
 ## License
 
-OAuth2Flow is released under MIT license. See [LICENSE](http://labs.3pillarglobal.com:12000/ios-workspace/oauth2flow/blob/master/LICENSE) for details.  
+OAuth2Flow is released under MIT license. See [LICENSE](LICENSE) for details.  
 OAuth logo is under [Creative Commons Attribution ShareAlike 3.0 license](http://creativecommons.org/licenses/by-sa/3.0/)
 
 ## About this project

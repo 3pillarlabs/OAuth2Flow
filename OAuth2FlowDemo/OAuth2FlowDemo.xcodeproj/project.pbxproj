@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFE6BF2B1C19A23E00C529B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6BF2A1C19A23E00C529B2 /* AppDelegate.swift */; };
+		FFE6BF301C19A23E00C529B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE6BF2E1C19A23E00C529B2 /* Main.storyboard */; };
+		FFE6BF321C19A23E00C529B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE6BF311C19A23E00C529B2 /* Assets.xcassets */; };
+		FFE6BF351C19A23E00C529B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE6BF331C19A23E00C529B2 /* LaunchScreen.storyboard */; };
+		FFE6BF401C19A23E00C529B2 /* OAuth2FlowDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6BF3F1C19A23E00C529B2 /* OAuth2FlowDemoTests.swift */; };
+		FFE6BF4B1C19A23E00C529B2 /* OAuth2FlowDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6BF4A1C19A23E00C529B2 /* OAuth2FlowDemoUITests.swift */; };
+		FFE6BF591C19A56000C529B2 /* ImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6BF581C19A56000C529B2 /* ImagesViewController.swift */; };
+		FFE6BF5B1C19A59D00C529B2 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6BF5A1C19A59D00C529B2 /* ImageDetailViewController.swift */; };
+		FFE6BF5D1C19A5DC00C529B2 /* ImgurImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6BF5C1C19A5DC00C529B2 /* ImgurImage.swift */; };
+		FFE6BF701C19AA0E00C529B2 /* DashboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6BF6F1C19AA0E00C529B2 /* DashboardCell.swift */; };
+		FFE6BF8B1C19ACFB00C529B2 /* OAuth2Flow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE6BF661C19A92C00C529B2 /* OAuth2Flow.framework */; };
+		FFE6BF8C1C19ACFB00C529B2 /* OAuth2Flow.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FFE6BF661C19A92C00C529B2 /* OAuth2Flow.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFE6BF3C1C19A23E00C529B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFE6BF1F1C19A23E00C529B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFE6BF261C19A23E00C529B2;
+			remoteInfo = OAuth2FlowDemo;
+		};
+		FFE6BF471C19A23E00C529B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFE6BF1F1C19A23E00C529B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFE6BF261C19A23E00C529B2;
+			remoteInfo = OAuth2FlowDemo;
+		};
+		FFE6BF651C19A92C00C529B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFE6BF5E1C19A92C00C529B2 /* OAuth2Flow.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FFEA32F31BEB866E00D2E6E4;
+			remoteInfo = OAuth2Flow;
+		};
+		FFE6BF671C19A92C00C529B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFE6BF5E1C19A92C00C529B2 /* OAuth2Flow.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FFEA33161BEB86B200D2E6E4;
+			remoteInfo = OAuth2FlowLibrary;
+		};
+		FFE6BF691C19A92C00C529B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFE6BF5E1C19A92C00C529B2 /* OAuth2Flow.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FFEA32A21BEB847300D2E6E4;
+			remoteInfo = OAuth2FlowResources;
+		};
+		FFE6BF6B1C19A92C00C529B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFE6BF5E1C19A92C00C529B2 /* OAuth2Flow.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FFEA32FC1BEB866E00D2E6E4;
+			remoteInfo = OAuth2FlowTests;
+		};
+		FFE6BF8D1C19ACFB00C529B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFE6BF5E1C19A92C00C529B2 /* OAuth2Flow.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FFEA32F21BEB866E00D2E6E4;
+			remoteInfo = OAuth2Flow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FFE6BF8F1C19ACFB00C529B2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FFE6BF8C1C19ACFB00C529B2 /* OAuth2Flow.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FFE6BF271C19A23E00C529B2 /* OAuth2FlowDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OAuth2FlowDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE6BF2A1C19A23E00C529B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFE6BF2F1C19A23E00C529B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFE6BF311C19A23E00C529B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFE6BF341C19A23E00C529B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFE6BF361C19A23E00C529B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE6BF3B1C19A23E00C529B2 /* OAuth2FlowDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OAuth2FlowDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE6BF3F1C19A23E00C529B2 /* OAuth2FlowDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuth2FlowDemoTests.swift; sourceTree = "<group>"; };
+		FFE6BF411C19A23E00C529B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE6BF461C19A23E00C529B2 /* OAuth2FlowDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OAuth2FlowDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE6BF4A1C19A23E00C529B2 /* OAuth2FlowDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuth2FlowDemoUITests.swift; sourceTree = "<group>"; };
+		FFE6BF4C1C19A23E00C529B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE6BF581C19A56000C529B2 /* ImagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesViewController.swift; sourceTree = "<group>"; };
+		FFE6BF5A1C19A59D00C529B2 /* ImageDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
+		FFE6BF5C1C19A5DC00C529B2 /* ImgurImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImgurImage.swift; sourceTree = "<group>"; };
+		FFE6BF5E1C19A92C00C529B2 /* OAuth2Flow.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OAuth2Flow.xcodeproj; path = OAuth2Flow/OAuth2Flow.xcodeproj; sourceTree = "<group>"; };
+		FFE6BF6F1C19AA0E00C529B2 /* DashboardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFE6BF241C19A23E00C529B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE6BF8B1C19ACFB00C529B2 /* OAuth2Flow.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE6BF381C19A23E00C529B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE6BF431C19A23E00C529B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFE6BF1E1C19A23E00C529B2 = {
+			isa = PBXGroup;
+			children = (
+				FFE6BF291C19A23E00C529B2 /* OAuth2FlowDemo */,
+				FFE6BF3E1C19A23E00C529B2 /* OAuth2FlowDemoTests */,
+				FFE6BF491C19A23E00C529B2 /* OAuth2FlowDemoUITests */,
+				FFE6BF281C19A23E00C529B2 /* Products */,
+				FFE6BF5E1C19A92C00C529B2 /* OAuth2Flow.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		FFE6BF281C19A23E00C529B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFE6BF271C19A23E00C529B2 /* OAuth2FlowDemo.app */,
+				FFE6BF3B1C19A23E00C529B2 /* OAuth2FlowDemoTests.xctest */,
+				FFE6BF461C19A23E00C529B2 /* OAuth2FlowDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFE6BF291C19A23E00C529B2 /* OAuth2FlowDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FFE6BF2A1C19A23E00C529B2 /* AppDelegate.swift */,
+				FFE6BF581C19A56000C529B2 /* ImagesViewController.swift */,
+				FFE6BF5A1C19A59D00C529B2 /* ImageDetailViewController.swift */,
+				FFE6BF6F1C19AA0E00C529B2 /* DashboardCell.swift */,
+				FFE6BF5C1C19A5DC00C529B2 /* ImgurImage.swift */,
+				FFE6BF2E1C19A23E00C529B2 /* Main.storyboard */,
+				FFE6BF311C19A23E00C529B2 /* Assets.xcassets */,
+				FFE6BF331C19A23E00C529B2 /* LaunchScreen.storyboard */,
+				FFE6BF361C19A23E00C529B2 /* Info.plist */,
+				FFE6BF711C19AA2800C529B2 /* Frameworks */,
+			);
+			path = OAuth2FlowDemo;
+			sourceTree = "<group>";
+		};
+		FFE6BF3E1C19A23E00C529B2 /* OAuth2FlowDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFE6BF3F1C19A23E00C529B2 /* OAuth2FlowDemoTests.swift */,
+				FFE6BF411C19A23E00C529B2 /* Info.plist */,
+			);
+			path = OAuth2FlowDemoTests;
+			sourceTree = "<group>";
+		};
+		FFE6BF491C19A23E00C529B2 /* OAuth2FlowDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFE6BF4A1C19A23E00C529B2 /* OAuth2FlowDemoUITests.swift */,
+				FFE6BF4C1C19A23E00C529B2 /* Info.plist */,
+			);
+			path = OAuth2FlowDemoUITests;
+			sourceTree = "<group>";
+		};
+		FFE6BF5F1C19A92C00C529B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFE6BF661C19A92C00C529B2 /* OAuth2Flow.framework */,
+				FFE6BF681C19A92C00C529B2 /* libOAuth2FlowLibrary.a */,
+				FFE6BF6A1C19A92C00C529B2 /* OAuth2FlowResources.bundle */,
+				FFE6BF6C1C19A92C00C529B2 /* OAuth2FlowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFE6BF711C19AA2800C529B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFE6BF261C19A23E00C529B2 /* OAuth2FlowDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE6BF4F1C19A23E00C529B2 /* Build configuration list for PBXNativeTarget "OAuth2FlowDemo" */;
+			buildPhases = (
+				FFE6BF231C19A23E00C529B2 /* Sources */,
+				FFE6BF241C19A23E00C529B2 /* Frameworks */,
+				FFE6BF251C19A23E00C529B2 /* Resources */,
+				FFE6BF8F1C19ACFB00C529B2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFE6BF8E1C19ACFB00C529B2 /* PBXTargetDependency */,
+			);
+			name = OAuth2FlowDemo;
+			productName = OAuth2FlowDemo;
+			productReference = FFE6BF271C19A23E00C529B2 /* OAuth2FlowDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFE6BF3A1C19A23E00C529B2 /* OAuth2FlowDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE6BF521C19A23E00C529B2 /* Build configuration list for PBXNativeTarget "OAuth2FlowDemoTests" */;
+			buildPhases = (
+				FFE6BF371C19A23E00C529B2 /* Sources */,
+				FFE6BF381C19A23E00C529B2 /* Frameworks */,
+				FFE6BF391C19A23E00C529B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFE6BF3D1C19A23E00C529B2 /* PBXTargetDependency */,
+			);
+			name = OAuth2FlowDemoTests;
+			productName = OAuth2FlowDemoTests;
+			productReference = FFE6BF3B1C19A23E00C529B2 /* OAuth2FlowDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFE6BF451C19A23E00C529B2 /* OAuth2FlowDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE6BF551C19A23E00C529B2 /* Build configuration list for PBXNativeTarget "OAuth2FlowDemoUITests" */;
+			buildPhases = (
+				FFE6BF421C19A23E00C529B2 /* Sources */,
+				FFE6BF431C19A23E00C529B2 /* Frameworks */,
+				FFE6BF441C19A23E00C529B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFE6BF481C19A23E00C529B2 /* PBXTargetDependency */,
+			);
+			name = OAuth2FlowDemoUITests;
+			productName = OAuth2FlowDemoUITests;
+			productReference = FFE6BF461C19A23E00C529B2 /* OAuth2FlowDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFE6BF1F1C19A23E00C529B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "David Livadaru";
+				TargetAttributes = {
+					FFE6BF261C19A23E00C529B2 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					FFE6BF3A1C19A23E00C529B2 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = FFE6BF261C19A23E00C529B2;
+					};
+					FFE6BF451C19A23E00C529B2 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = FFE6BF261C19A23E00C529B2;
+					};
+				};
+			};
+			buildConfigurationList = FFE6BF221C19A23E00C529B2 /* Build configuration list for PBXProject "OAuth2FlowDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFE6BF1E1C19A23E00C529B2;
+			productRefGroup = FFE6BF281C19A23E00C529B2 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FFE6BF5F1C19A92C00C529B2 /* Products */;
+					ProjectRef = FFE6BF5E1C19A92C00C529B2 /* OAuth2Flow.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FFE6BF261C19A23E00C529B2 /* OAuth2FlowDemo */,
+				FFE6BF3A1C19A23E00C529B2 /* OAuth2FlowDemoTests */,
+				FFE6BF451C19A23E00C529B2 /* OAuth2FlowDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FFE6BF661C19A92C00C529B2 /* OAuth2Flow.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OAuth2Flow.framework;
+			remoteRef = FFE6BF651C19A92C00C529B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FFE6BF681C19A92C00C529B2 /* libOAuth2FlowLibrary.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOAuth2FlowLibrary.a;
+			remoteRef = FFE6BF671C19A92C00C529B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FFE6BF6A1C19A92C00C529B2 /* OAuth2FlowResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OAuth2FlowResources.bundle;
+			remoteRef = FFE6BF691C19A92C00C529B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FFE6BF6C1C19A92C00C529B2 /* OAuth2FlowTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OAuth2FlowTests.xctest;
+			remoteRef = FFE6BF6B1C19A92C00C529B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFE6BF251C19A23E00C529B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE6BF351C19A23E00C529B2 /* LaunchScreen.storyboard in Resources */,
+				FFE6BF321C19A23E00C529B2 /* Assets.xcassets in Resources */,
+				FFE6BF301C19A23E00C529B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE6BF391C19A23E00C529B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE6BF441C19A23E00C529B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFE6BF231C19A23E00C529B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE6BF701C19AA0E00C529B2 /* DashboardCell.swift in Sources */,
+				FFE6BF591C19A56000C529B2 /* ImagesViewController.swift in Sources */,
+				FFE6BF5B1C19A59D00C529B2 /* ImageDetailViewController.swift in Sources */,
+				FFE6BF5D1C19A5DC00C529B2 /* ImgurImage.swift in Sources */,
+				FFE6BF2B1C19A23E00C529B2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE6BF371C19A23E00C529B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE6BF401C19A23E00C529B2 /* OAuth2FlowDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE6BF421C19A23E00C529B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE6BF4B1C19A23E00C529B2 /* OAuth2FlowDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFE6BF3D1C19A23E00C529B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFE6BF261C19A23E00C529B2 /* OAuth2FlowDemo */;
+			targetProxy = FFE6BF3C1C19A23E00C529B2 /* PBXContainerItemProxy */;
+		};
+		FFE6BF481C19A23E00C529B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFE6BF261C19A23E00C529B2 /* OAuth2FlowDemo */;
+			targetProxy = FFE6BF471C19A23E00C529B2 /* PBXContainerItemProxy */;
+		};
+		FFE6BF8E1C19ACFB00C529B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OAuth2Flow;
+			targetProxy = FFE6BF8D1C19ACFB00C529B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFE6BF2E1C19A23E00C529B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFE6BF2F1C19A23E00C529B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFE6BF331C19A23E00C529B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFE6BF341C19A23E00C529B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFE6BF4D1C19A23E00C529B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFE6BF4E1C19A23E00C529B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFE6BF501C19A23E00C529B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = OAuth2FlowDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3PillarGlobal.OAuth2FlowDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFE6BF511C19A23E00C529B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = OAuth2FlowDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3PillarGlobal.OAuth2FlowDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FFE6BF531C19A23E00C529B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OAuth2FlowDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3PillarGlobal.OAuth2FlowDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OAuth2FlowDemo.app/OAuth2FlowDemo";
+			};
+			name = Debug;
+		};
+		FFE6BF541C19A23E00C529B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OAuth2FlowDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3PillarGlobal.OAuth2FlowDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OAuth2FlowDemo.app/OAuth2FlowDemo";
+			};
+			name = Release;
+		};
+		FFE6BF561C19A23E00C529B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OAuth2FlowDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3PillarGlobal.OAuth2FlowDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OAuth2FlowDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FFE6BF571C19A23E00C529B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OAuth2FlowDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3PillarGlobal.OAuth2FlowDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OAuth2FlowDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFE6BF221C19A23E00C529B2 /* Build configuration list for PBXProject "OAuth2FlowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE6BF4D1C19A23E00C529B2 /* Debug */,
+				FFE6BF4E1C19A23E00C529B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFE6BF4F1C19A23E00C529B2 /* Build configuration list for PBXNativeTarget "OAuth2FlowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE6BF501C19A23E00C529B2 /* Debug */,
+				FFE6BF511C19A23E00C529B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFE6BF521C19A23E00C529B2 /* Build configuration list for PBXNativeTarget "OAuth2FlowDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE6BF531C19A23E00C529B2 /* Debug */,
+				FFE6BF541C19A23E00C529B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFE6BF551C19A23E00C529B2 /* Build configuration list for PBXNativeTarget "OAuth2FlowDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE6BF561C19A23E00C529B2 /* Debug */,
+				FFE6BF571C19A23E00C529B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFE6BF1F1C19A23E00C529B2 /* Project object */;
+}

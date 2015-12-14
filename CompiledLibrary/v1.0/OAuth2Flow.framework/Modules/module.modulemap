@@ -1,0 +1,6 @@
+framework module OAuth2Flow {
+  umbrella header "OAuth2Flow.h"
+
+  export *
+  module * { export * }
+}

@@ -50,6 +50,13 @@
 			remoteGlobalIDString = FFEA32FC1BEB866E00D2E6E4;
 			remoteInfo = OAuth2FlowTests;
 		};
+		FFC7D7C31C20441700609AFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF2606361C201A5A00B64C0E /* OAuth2Flow.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FFEA32F21BEB866E00D2E6E4;
+			remoteInfo = OAuth2Flow;
+		};
 		FFE6BF3C1C19A23E00C529B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FFE6BF1F1C19A23E00C529B2 /* Project object */;
@@ -215,6 +222,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				FFC7D7C41C20441700609AFB /* PBXTargetDependency */,
 			);
 			name = OAuth2FlowDemo;
 			productName = OAuth2FlowDemo;
@@ -396,6 +404,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		FFC7D7C41C20441700609AFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OAuth2Flow;
+			targetProxy = FFC7D7C31C20441700609AFB /* PBXContainerItemProxy */;
+		};
 		FFE6BF3D1C19A23E00C529B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FFE6BF261C19A23E00C529B2 /* OAuth2FlowDemo */;

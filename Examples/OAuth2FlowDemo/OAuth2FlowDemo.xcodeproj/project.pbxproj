@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF2606451C201A6700B64C0E /* OAuth2Flow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF26063E1C201A5A00B64C0E /* OAuth2Flow.framework */; };
+		FF2606461C201A7000B64C0E /* OAuth2Flow.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF26063E1C201A5A00B64C0E /* OAuth2Flow.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FFE6BF2B1C19A23E00C529B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6BF2A1C19A23E00C529B2 /* AppDelegate.swift */; };
 		FFE6BF301C19A23E00C529B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE6BF2E1C19A23E00C529B2 /* Main.storyboard */; };
 		FFE6BF321C19A23E00C529B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE6BF311C19A23E00C529B2 /* Assets.xcassets */; };
@@ -17,11 +19,37 @@
 		FFE6BF5B1C19A59D00C529B2 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6BF5A1C19A59D00C529B2 /* ImageDetailViewController.swift */; };
 		FFE6BF5D1C19A5DC00C529B2 /* ImgurImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6BF5C1C19A5DC00C529B2 /* ImgurImage.swift */; };
 		FFE6BF701C19AA0E00C529B2 /* DashboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6BF6F1C19AA0E00C529B2 /* DashboardCell.swift */; };
-		FFE6BF8B1C19ACFB00C529B2 /* OAuth2Flow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE6BF661C19A92C00C529B2 /* OAuth2Flow.framework */; };
-		FFE6BF8C1C19ACFB00C529B2 /* OAuth2Flow.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FFE6BF661C19A92C00C529B2 /* OAuth2Flow.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		FF26063D1C201A5A00B64C0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF2606361C201A5A00B64C0E /* OAuth2Flow.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FFEA32F31BEB866E00D2E6E4;
+			remoteInfo = OAuth2Flow;
+		};
+		FF26063F1C201A5A00B64C0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF2606361C201A5A00B64C0E /* OAuth2Flow.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FFEA33161BEB86B200D2E6E4;
+			remoteInfo = OAuth2FlowLibrary;
+		};
+		FF2606411C201A5A00B64C0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF2606361C201A5A00B64C0E /* OAuth2Flow.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FFEA32A21BEB847300D2E6E4;
+			remoteInfo = OAuth2FlowResources;
+		};
+		FF2606431C201A5A00B64C0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF2606361C201A5A00B64C0E /* OAuth2Flow.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FFEA32FC1BEB866E00D2E6E4;
+			remoteInfo = OAuth2FlowTests;
+		};
 		FFE6BF3C1C19A23E00C529B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FFE6BF1F1C19A23E00C529B2 /* Project object */;
@@ -36,41 +64,6 @@
 			remoteGlobalIDString = FFE6BF261C19A23E00C529B2;
 			remoteInfo = OAuth2FlowDemo;
 		};
-		FFE6BF651C19A92C00C529B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FFE6BF5E1C19A92C00C529B2 /* OAuth2Flow.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FFEA32F31BEB866E00D2E6E4;
-			remoteInfo = OAuth2Flow;
-		};
-		FFE6BF671C19A92C00C529B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FFE6BF5E1C19A92C00C529B2 /* OAuth2Flow.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FFEA33161BEB86B200D2E6E4;
-			remoteInfo = OAuth2FlowLibrary;
-		};
-		FFE6BF691C19A92C00C529B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FFE6BF5E1C19A92C00C529B2 /* OAuth2Flow.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FFEA32A21BEB847300D2E6E4;
-			remoteInfo = OAuth2FlowResources;
-		};
-		FFE6BF6B1C19A92C00C529B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FFE6BF5E1C19A92C00C529B2 /* OAuth2Flow.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FFEA32FC1BEB866E00D2E6E4;
-			remoteInfo = OAuth2FlowTests;
-		};
-		FFE6BF8D1C19ACFB00C529B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FFE6BF5E1C19A92C00C529B2 /* OAuth2Flow.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = FFEA32F21BEB866E00D2E6E4;
-			remoteInfo = OAuth2Flow;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -80,7 +73,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FFE6BF8C1C19ACFB00C529B2 /* OAuth2Flow.framework in Embed Frameworks */,
+				FF2606461C201A7000B64C0E /* OAuth2Flow.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,6 +81,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FF2606361C201A5A00B64C0E /* OAuth2Flow.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OAuth2Flow.xcodeproj; path = ../../Framework/OAuth2Flow/OAuth2Flow.xcodeproj; sourceTree = "<group>"; };
 		FFE6BF271C19A23E00C529B2 /* OAuth2FlowDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OAuth2FlowDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE6BF2A1C19A23E00C529B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFE6BF2F1C19A23E00C529B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -103,7 +97,6 @@
 		FFE6BF581C19A56000C529B2 /* ImagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesViewController.swift; sourceTree = "<group>"; };
 		FFE6BF5A1C19A59D00C529B2 /* ImageDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
 		FFE6BF5C1C19A5DC00C529B2 /* ImgurImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImgurImage.swift; sourceTree = "<group>"; };
-		FFE6BF5E1C19A92C00C529B2 /* OAuth2Flow.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OAuth2Flow.xcodeproj; path = OAuth2Flow/OAuth2Flow.xcodeproj; sourceTree = "<group>"; };
 		FFE6BF6F1C19AA0E00C529B2 /* DashboardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,7 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFE6BF8B1C19ACFB00C529B2 /* OAuth2Flow.framework in Frameworks */,
+				FF2606451C201A6700B64C0E /* OAuth2Flow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +126,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF2606371C201A5A00B64C0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF26063E1C201A5A00B64C0E /* OAuth2Flow.framework */,
+				FF2606401C201A5A00B64C0E /* libOAuth2FlowLibrary.a */,
+				FF2606421C201A5A00B64C0E /* OAuth2FlowResources.bundle */,
+				FF2606441C201A5A00B64C0E /* OAuth2FlowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		FFE6BF1E1C19A23E00C529B2 = {
 			isa = PBXGroup;
 			children = (
@@ -140,7 +144,7 @@
 				FFE6BF3E1C19A23E00C529B2 /* OAuth2FlowDemoTests */,
 				FFE6BF491C19A23E00C529B2 /* OAuth2FlowDemoUITests */,
 				FFE6BF281C19A23E00C529B2 /* Products */,
-				FFE6BF5E1C19A92C00C529B2 /* OAuth2Flow.xcodeproj */,
+				FF2606361C201A5A00B64C0E /* OAuth2Flow.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -189,17 +193,6 @@
 			path = OAuth2FlowDemoUITests;
 			sourceTree = "<group>";
 		};
-		FFE6BF5F1C19A92C00C529B2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FFE6BF661C19A92C00C529B2 /* OAuth2Flow.framework */,
-				FFE6BF681C19A92C00C529B2 /* libOAuth2FlowLibrary.a */,
-				FFE6BF6A1C19A92C00C529B2 /* OAuth2FlowResources.bundle */,
-				FFE6BF6C1C19A92C00C529B2 /* OAuth2FlowTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		FFE6BF711C19AA2800C529B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,7 +215,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				FFE6BF8E1C19ACFB00C529B2 /* PBXTargetDependency */,
 			);
 			name = OAuth2FlowDemo;
 			productName = OAuth2FlowDemo;
@@ -301,8 +293,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = FFE6BF5F1C19A92C00C529B2 /* Products */;
-					ProjectRef = FFE6BF5E1C19A92C00C529B2 /* OAuth2Flow.xcodeproj */;
+					ProductGroup = FF2606371C201A5A00B64C0E /* Products */;
+					ProjectRef = FF2606361C201A5A00B64C0E /* OAuth2Flow.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -315,32 +307,32 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		FFE6BF661C19A92C00C529B2 /* OAuth2Flow.framework */ = {
+		FF26063E1C201A5A00B64C0E /* OAuth2Flow.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = OAuth2Flow.framework;
-			remoteRef = FFE6BF651C19A92C00C529B2 /* PBXContainerItemProxy */;
+			remoteRef = FF26063D1C201A5A00B64C0E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		FFE6BF681C19A92C00C529B2 /* libOAuth2FlowLibrary.a */ = {
+		FF2606401C201A5A00B64C0E /* libOAuth2FlowLibrary.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libOAuth2FlowLibrary.a;
-			remoteRef = FFE6BF671C19A92C00C529B2 /* PBXContainerItemProxy */;
+			remoteRef = FF26063F1C201A5A00B64C0E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		FFE6BF6A1C19A92C00C529B2 /* OAuth2FlowResources.bundle */ = {
+		FF2606421C201A5A00B64C0E /* OAuth2FlowResources.bundle */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = OAuth2FlowResources.bundle;
-			remoteRef = FFE6BF691C19A92C00C529B2 /* PBXContainerItemProxy */;
+			remoteRef = FF2606411C201A5A00B64C0E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		FFE6BF6C1C19A92C00C529B2 /* OAuth2FlowTests.xctest */ = {
+		FF2606441C201A5A00B64C0E /* OAuth2FlowTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = OAuth2FlowTests.xctest;
-			remoteRef = FFE6BF6B1C19A92C00C529B2 /* PBXContainerItemProxy */;
+			remoteRef = FF2606431C201A5A00B64C0E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -413,11 +405,6 @@
 			isa = PBXTargetDependency;
 			target = FFE6BF261C19A23E00C529B2 /* OAuth2FlowDemo */;
 			targetProxy = FFE6BF471C19A23E00C529B2 /* PBXContainerItemProxy */;
-		};
-		FFE6BF8E1C19ACFB00C529B2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = OAuth2Flow;
-			targetProxy = FFE6BF8D1C19ACFB00C529B2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

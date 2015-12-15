@@ -1,16 +1,12 @@
 # OAuth2Flow
 
-![](oauth-2-logo.png)
-
-## Description
-
 A library which facilitates the OAuth v2 authentication to services. It is available starting with iOS 6 and later, Objective-C or Swift.
 
 **Project Rationale**
 
-The purpose of the library/framework is to provide an user friendly experience when authentication is done with Facebook, Twitter or any other service which provides OAuth v2 authentication. The approach of using a view controller instead Safari app is solving 2 problems:
+The purpose of the library/framework is to provide an user friendly experience when authentication is done with Facebook, Twitter or any other service which provides OAuth v2 authentication. By using a view controller instead Safari app you solve 2 problems:
 
-1. Removes the need to switch back and forth between Safari and your app (not the best user experience in the world).
+1. Remove the need to switch back and forth between Safari and your app (not the best user experience in the world).
 2. Because your app doesn't need to receive input from Safari, you don't need handle possible security issues from interprocess communication.
 
 ## Installation

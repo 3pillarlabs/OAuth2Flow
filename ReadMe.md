@@ -4,9 +4,9 @@ A library which facilitates the OAuth v2 authentication to services. It is avail
 
 **Project Rationale**
 
-The purpose of the library/framework is to provide an user friendly experience when authentication is done with Facebook, Twitter or any other service which provides OAuth v2 authentication. By using a view controller instead Safari app you solve 2 problems:
+The purpose of the library/framework is to provide an user friendly experience when authentication is done with Facebook, Twitter or any other service which provides OAuth v2 authentication. By using a view controller instead of Safari app you solve 2 problems:
 
-1. Remove the need to switch back and forth between Safari and your app (not the best user experience in the world).
+1. Remove the need to switch back and forth between Safari and your app.
 2. Because your app doesn't need to receive input from Safari, you don't need handle possible security issues from interprocess communication.
 
 ## Installation
@@ -107,10 +107,13 @@ request?.startWithJSONBlockReponse({ (json: AnyObject?, error: NSError?) -> Void
 })
 ```
 
+<br/>
+In the demo project you're able to see a workable exaple for Imgur. Note that you'll need to register an application for credentials.
+<br/>
+
 ## License
 
 OAuth2Flow is released under MIT license. See [LICENSE](LICENSE) for details.  
-OAuth logo is under [Creative Commons Attribution ShareAlike 3.0 license](http://creativecommons.org/licenses/by-sa/3.0/)
 
 ## About this project
 

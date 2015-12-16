@@ -305,7 +305,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0710;
-				ORGANIZATIONNAME = "David Livadaru";
+				ORGANIZATIONNAME = "3Pillar Global";
 				TargetAttributes = {
 					FFEA32A11BEB847300D2E6E4 = {
 						CreatedOnToolsVersion = 7.1;

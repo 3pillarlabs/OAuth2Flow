@@ -273,7 +273,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0710;
-				ORGANIZATIONNAME = "David Livadaru";
+				ORGANIZATIONNAME = "3Pillar Global";
 				TargetAttributes = {
 					FFE6BF261C19A23E00C529B2 = {
 						CreatedOnToolsVersion = 7.1;

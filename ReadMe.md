@@ -108,7 +108,7 @@ request?.startWithJSONBlockReponse({ (json: AnyObject?, error: NSError?) -> Void
 ```
 
 <br/>
-In the demo project you're able to see a workable exaple for Imgur. Note that you'll need to register an application for credentials.
+In the demo project you're able to see a workable example for Imgur. Note that you'll need to register an application for credentials.
 <br/>
 
 ## License

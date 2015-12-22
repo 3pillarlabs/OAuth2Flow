@@ -6,6 +6,20 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		FFE68E3A1C22A5180092FF8E /* OAuth2FlowUniversal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FFE68E3B1C22A5180092FF8E /* Build configuration list for PBXAggregateTarget "OAuth2FlowUniversal" */;
+			buildPhases = (
+				FFE68E3E1C22A5270092FF8E /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = OAuth2FlowUniversal;
+			productName = OAuth2FlowUniversal;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		FFC0F89C1BEB9B17004A1642 /* OAFAuthConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = FFC0F89A1BEB9B17004A1642 /* OAFAuthConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FFC0F89D1BEB9B17004A1642 /* OAFAuthConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC0F89B1BEB9B17004A1642 /* OAFAuthConfiguration.m */; };
@@ -307,6 +321,9 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "3Pillar Global";
 				TargetAttributes = {
+					FFE68E3A1C22A5180092FF8E = {
+						CreatedOnToolsVersion = 7.1;
+					};
 					FFEA32A11BEB847300D2E6E4 = {
 						CreatedOnToolsVersion = 7.1;
 					};
@@ -337,6 +354,7 @@
 				FFEA33151BEB86B200D2E6E4 /* OAuth2FlowLibrary */,
 				FFEA32A11BEB847300D2E6E4 /* OAuth2FlowResources */,
 				FFEA32FB1BEB866E00D2E6E4 /* OAuth2FlowTests */,
+				FFE68E3A1C22A5180092FF8E /* OAuth2FlowUniversal */,
 			);
 		};
 /* End PBXProject section */
@@ -374,6 +392,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FFE68E3E1C22A5270092FF8E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ./build.sh;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FFEA329E1BEB847300D2E6E4 /* Sources */ = {
@@ -431,6 +465,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		FFE68E3C1C22A5180092FF8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFE68E3D1C22A5180092FF8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		FFEA32741BEB823B00D2E6E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -632,6 +681,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FFE68E3B1C22A5180092FF8E /* Build configuration list for PBXAggregateTarget "OAuth2FlowUniversal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE68E3C1C22A5180092FF8E /* Debug */,
+				FFE68E3D1C22A5180092FF8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FFEA325C1BEB823A00D2E6E4 /* Build configuration list for PBXProject "OAuth2Flow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

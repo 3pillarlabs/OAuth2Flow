@@ -1,6 +1,6 @@
 # OAuth2Flow
 
-A library which facilitates the OAuth v2 authentication to services. It is available starting with iOS 6 and later, Objective-C or Swift.
+A library which facilitates the OAuth v2 authentication to services. It is available starting with iOS 7 and later, Objective-C or Swift.
 
 **Project Rationale**
 
